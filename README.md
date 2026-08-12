@@ -21,7 +21,7 @@ Application web Next.js d'analyse textuelle qui détecte les contenus générés
 | Couche | Technologie |
 |---|---|
 | Framework | Next.js 14 (App Router) |
-| LLM principal | Google Gemini 3.5 Flash |
+| LLM principal | Google Gemini 3.6 Flash |
 | LLM fallback | Mistral Small |
 | Recherche web | Serper.dev (Google Search API) |
 | Extraction PDF | pdf-parse |
