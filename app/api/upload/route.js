@@ -1,8 +1,6 @@
 import { NextResponse } from 'next/server';
 
 // Taille max : 10 MB
-export const config = { api: { bodyParser: false } };
-
 export async function POST(request) {
   try {
     const formData = await request.formData();
