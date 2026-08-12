@@ -1,0 +1,19 @@
+import './globals.css';
+
+export const metadata = {
+  title: 'Kelly — Détection IA & Plagiat',
+  description: 'Analyse sémantique pour détecter les textes générés par IA et le plagiat.',
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="fr">
+      <body>{children}</body>
+    </html>
+  );
+}

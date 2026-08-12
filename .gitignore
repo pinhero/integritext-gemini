@@ -1,0 +1,15 @@
+# Clé API — NE JAMAIS committer ce fichier
+.env.local
+.env*.local
+
+# Next.js
+.next/
+out/
+
+# Dépendances
+node_modules/
+
+# Divers
+.DS_Store
+*.log
+.env.local
