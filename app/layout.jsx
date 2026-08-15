@@ -4,7 +4,7 @@ export const metadata = {
   title: 'Kelly — Détection IA & Plagiat',
   description: 'Analyse sémantique pour détecter les textes générés par IA et le plagiat.',
   icons: {
-    icon: '/favicon.svg',
+    icon: '/favicon.ico',
     shortcut: '/favicon.ico',
     apple: '/favicon.ico',
   },
