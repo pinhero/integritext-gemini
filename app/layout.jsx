@@ -5,8 +5,8 @@ export const metadata = {
   description: 'Analyse sémantique pour détecter les textes générés par IA et le plagiat.',
   icons: {
     icon: '/favicon.svg',
-    shortcut: '/favicon.svg',
-    apple: '/favicon.svg',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
   },
 };
 
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.ico" type="image/svg+xml" />
       </head>
       <body>{children}</body>
     </html>
